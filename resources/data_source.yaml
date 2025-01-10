@@ -1,0 +1,16 @@
+sample_data:
+  path: resources/sample_data.csv
+  authors: [John Doe, Jane Doe]
+  license: MIT
+  version: 1.0.0
+  description: This is a sample data
+  tags: [sample, data]
+  source: https://example.com/sample_data
+tox21:
+  path: resources/tox21.csv.gz
+  authors: []
+  license: MIT
+  version: 1.0.0
+  description: Tox21 dataset is a collection of small molecules with their properties and toxicity.
+  tags: [toxicity, smiles, small molecule]
+  source: https://github.com/deepchem/deepchem/tree/master/datasets/tox21.csv.gz

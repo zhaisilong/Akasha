@@ -14,10 +14,11 @@ setup(
     long_description_content_type="text/markdown",  # Content type of the long description
     url="https://github.com/zhaisilong/Akasha",  # Replace with your project URL
     packages=find_packages(),  # Automatically find packages
+    install_requires=["pyarrow", "pandas", "numpy", "absl-py", "loguru", "PyYAML"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",  # Replace with your license
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',  # Python version requirement
+    python_requires='>=3.10',  # Python version requirement
 )
